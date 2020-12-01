@@ -1,5 +1,5 @@
 h1 {
-    font-size: 1em;
+    font-size: 24px;
     font-weight: 800;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
@@ -12,9 +12,10 @@ body {
 }
 
 div{
+    position: relative;
     background-color: white;
     width: 600px;
-    height: 200px;
+    height: 250px;
     border-radius: 5px;
     margin-top: 90px;
 }
@@ -25,9 +26,10 @@ button {
     color: white;
     font-size: 0.8em;
     text-align: center;
-    display: flex;
-    align-content: flex-start;
-    margin-left: 400px;
+    left: 500px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 10px;
 
 }
 
